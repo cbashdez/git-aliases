@@ -97,6 +97,13 @@ Uso: `git del feature/login`
 
 ## ↩️ Deshacer Cambios
 
+### `git disc` — Descartar todos los cambios del working directory
+```bash
+git config --global alias.disc "checkout ."
+```
+Descarta todos los cambios no commiteados de todos los archivos y los regresa al estado del último commit.  
+Uso: `git disc`
+
 ### `git unstage` — Sacar archivo del staging
 ```bash
 git config --global alias.unstage "restore --staged"
