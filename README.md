@@ -36,7 +36,7 @@ Uso: `git cm "mi mensaje"`
 
 ### `git ac` — Add all + Commit en un solo paso
 ```bash
-git config --global alias.ac "!git add -A && git commit -m"
+git config --global alias.ac '!git add -A && git commit -m'
 ```
 Agrega todos los archivos modificados al staging y hace el commit en un solo comando.  
 Uso: `git ac "mi mensaje"`
